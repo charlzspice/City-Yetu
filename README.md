@@ -17,8 +17,8 @@ The Smart City website is designed to enhance urban living by providing an effic
    - Users can browse and request various city services.
    - Service requests are submitted to the admin panel for processing.
 **User Location identification**
--A blue print of the city is created to aid in identifying houses location  to aid in direct response
--Also geomapping services can be providing by minimizing the map to the entire city.This provides accurate coordinates for each house
+-A blue print of the city is created to aid in identifying houses location  to aid in direct response(Naming convention of hoouseholds keeps this idea into consideration for easier identification).
+-Also geomapping services can be providing by minimizing the map to the entire city.This provides accurate coordinates for each house.
 3. **Admin Dashboard**
    - Admin can view and manage service requests.
    - Allocation of requests to the relevant departments.
@@ -57,7 +57,8 @@ The Smart City website is designed to enhance urban living by providing an effic
    - Accessing the data collectted by various IOT systems and displaying it on the dashboard to view real-time data from IoT sensors.
    - Data is visualized to show pollution levels and trends.
    -  Also from this panel the admin can take action to request for a solution to the concerned department to resolve any issue which has not been monitored and the department ensures that after the issue has been resolved through the system.
-
+5. **Departments panels**
+ - The issues are posted to the departments concerned and they are resolved form this point. After each issue has been resolved the department click on the resolved action and the admin can see directly form the admin panel that the issue has been resolved
 ## Contributing
 
 1. Fork the repository.
