@@ -1,8 +1,7 @@
 
 
 
-# Smart City Website
-      ![city](https://github.com/charlzspice/City-Yetu/assets/113253683/c79e4508-c896-489c-81a0-19a6565a772c)
+# Smart City Website ![city](https://github.com/charlzspice/City-Yetu/assets/113253683/c79e4508-c896-489c-81a0-19a6565a772c)
 
 ## Overview
 
