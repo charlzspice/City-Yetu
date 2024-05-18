@@ -5,7 +5,7 @@
 
 ## Overview
 
-The Smart City website is designed to enhance urban living by providing an efficient platform for users to request services, monitor water pollution, and manage city resources. This project includes user authentication, service request submission, administrative processing, and an IoT-based water pollution monitoring system.
+The Smart City website is designed to enhance urban living by providing an efficient platform for users to request services, monitor water pollution,security issues,water usage,waste mangement and other city resources. This project includes user authentication, service request submission, administrative processing, and an IoT-based water  monitoring systems.
 
 ## flow diagram 
 ![flow](https://github.com/charlzspice/City-Yetu/assets/113253683/bf7e888a-f112-4bd0-ba7b-13aac7b2b4e7)
@@ -56,7 +56,7 @@ The Smart City website is designed to enhance urban living by providing an effic
 4. **Monitor various resources**
    - Accessing the data collectted by various IOT systems and displaying it on the dashboard to view real-time data from IoT sensors.
    - Data is visualized to show pollution levels and trends.
-   -  Also from this panel the admin can take action to resolve any issue which has not been monitored
+   -  Also from this panel the admin can take action to request for a solution to the concerned department to resolve any issue which has not been monitored and the department ensures that after the issue has been resolved through the system.
 
 ## Contributing
 
@@ -72,4 +72,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-This is the project 
+This is our idea behind the project
