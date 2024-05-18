@@ -27,7 +27,7 @@ when using the blue print idea the household name is given by each admin i.e to 
      
 
 4. **Water Pollution Monitoring**
-   - IoT-based system for real-time monitoring of water quality and also with integartion of geomapping the pollution area can be located and action taken. (Protoype will be demonstarted on what the system will do through a simulation software)
+   - IoT-based system for real-time monitoring of water quality and also with integartion of geomapping the pollution area can be located and action taken. #(Protoype will be demonstarted on what the system will do through a simulation software)
    - Data visualization for pollution levels. 
 
 5. **Water usage**
