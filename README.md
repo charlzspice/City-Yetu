@@ -2,8 +2,8 @@
 
 
 # Smart City Website
-       ![city](https://github.com/charlzspice/City-Yetu/assets/113253683/966b807e-4a1d-4fcb-9b8c-bc3368870d8e)
-                                                                 
+      ![city](https://github.com/charlzspice/City-Yetu/assets/113253683/c79e4508-c896-489c-81a0-19a6565a772c)
+
 ## Overview
 
 The Smart City website is designed to enhance urban living by providing an efficient platform for users to request services, monitor water pollution,security issues,water usage,waste mangement and other city resources. This project includes user authentication, service request submission, administrative processing, and an IoT-based water  monitoring systems.
