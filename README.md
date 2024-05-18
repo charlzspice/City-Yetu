@@ -1,6 +1,5 @@
-Sure! Here is a README file for your Smart City website project:
 
----
+
 
 # Smart City Website
 
@@ -8,7 +7,8 @@ Sure! Here is a README file for your Smart City website project:
 
 The Smart City website is designed to enhance urban living by providing an efficient platform for users to request services, monitor water pollution, and manage city resources. This project includes user authentication, service request submission, administrative processing, and an IoT-based water pollution monitoring system.
 
-## Features
+## flow diagram 
+![flow](https://github.com/charlzspice/City-Yetu/assets/113253683/bf7e888a-f112-4bd0-ba7b-13aac7b2b4e7)
 
 1. **User Authentication**
    - Login and registration for users.
@@ -24,69 +24,17 @@ The Smart City website is designed to enhance urban living by providing an effic
 
 4. **Water Pollution Monitoring**
    - IoT-based system for real-time monitoring of water quality.
-   - Data visualization for pollution levels.
+   - Data visualization for pollution levels. 
 
 ## Technologies Used
 
-- **Frontend:** React.js
-- **Backend:** Node.js with Express
-- **Database:** MongoDB
-- **Authentication:** JWT
-- **IoT:** MQTT (for sensor data communication)
-- **Hosting:** AWS/Heroku
-- **Additional Libraries:** Socket.IO (real-time communication), D3.js/Chart.js (data visualization)
+- **Frontend:** javascript,HTML(jsp)
+- **Backend:** Java
 
-## Installation
+ D3.js/Chart.js (data visualization)
 
-### Prerequisites
 
-- Node.js and npm installed
-- MongoDB installed and running
-- MQTT broker (like Mosquitto) installed for IoT communication
-
-### Steps
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/yourusername/smart-city-website.git
-   cd smart-city-website
-   ```
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Configure Environment Variables**
-
-   Create a `.env` file in the root directory and add the following variables:
-
-   ```plaintext
-   PORT=3000
-   MONGO_URI=mongodb://localhost:27017/smartCityDB
-   JWT_SECRET=your_jwt_secret
-   MQTT_BROKER_URL=mqtt://localhost
-   ```
-
-4. **Run the Server**
-
-   ```bash
-   npm start
-   ```
-
-5. **Run the Frontend**
-
-   Navigate to the `client` directory and run:
-
-   ```bash
-   cd client
-   npm install
-   npm start
-   ```
-
-6. **Set Up IoT Sensors**
+. **Set Up IoT Sensors**
 
    Ensure your IoT devices are configured to send data to the MQTT broker specified in the `.env` file.
 
