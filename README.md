@@ -2,7 +2,8 @@
 
 
 # Smart City Website
-
+       ![city](https://github.com/charlzspice/City-Yetu/assets/113253683/966b807e-4a1d-4fcb-9b8c-bc3368870d8e)
+                                                                 
 ## Overview
 
 The Smart City website is designed to enhance urban living by providing an efficient platform for users to request services, monitor water pollution,security issues,water usage,waste mangement and other city resources. This project includes user authentication, service request submission, administrative processing, and an IoT-based water  monitoring systems.
@@ -60,8 +61,8 @@ when using the blue print idea the household name is given by each admin i.e to 
    - Data is visualized to show pollution levels and trends.
    -  Also from this panel the admin can take action to request for a solution to the concerned department to resolve any issue which has not been monitored and the department ensures that after the issue has been resolved through the system.
 5. **Departments panels**
- - The issues are posted to the departments concerned and they are resolved form this point. After each issue has been resolved the department click on the resolved action and the admin can see directly form the admin panel that the issue has been resolved
-## Contributing
+ - The issues are posted to the departments concerned and they are resolved form this point. After each issue has been resolved the department click on the resolved action and the admin can see directly form the admin panel that the issue has been resolved.
+## Contributing to the project
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
