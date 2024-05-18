@@ -12,36 +12,37 @@ The Smart City website is designed to enhance urban living by providing an effic
 
 1. **User Authentication**
    - Login and registration for users.
-   - Secure access using JWT (JSON Web Tokens).
-
-2. **Service Request Submission**
+   
+2. **Service Request Submission**3
    - Users can browse and request various city services.
-   - Service requests are submitted to the admin for processing.
-
+   - Service requests are submitted to the admin panel for processing.
+**User Location identification**
+-A blue print of the city is created to aid in identifying houses location  to aid in direct response
+-Also geomapping services can be providing by minimizing the map to the entire city.This provides accurate coordinates for each house
 3. **Admin Dashboard**
    - Admin can view and manage service requests.
    - Allocation of requests to the relevant departments.
+     
 
 4. **Water Pollution Monitoring**
-   - IoT-based system for real-time monitoring of water quality.
+   - IoT-based system for real-time monitoring of water quality and also with integartion of geomapping the pollution area can be located and action taken.
    - Data visualization for pollution levels. 
 
-## Technologies Used
+5. **Water usage**
+   - Introduction of IOT systems e.g smart meters to record the water used in each house hold
 
-- **Frontend:** javascript,HTML(jsp)
-- **Backend:** Java
-
- D3.js/Chart.js (data visualization)
-
-
+6. **power usage**
+   - Introduction of IOT systems e.g smart meters to record the power used in each house hold and also detection of faults that occured in each household.
+7. **Waste management **
+   - Introduction of IOT systems e.g smart garbage collection containers to record garbage level in each container. and data sent for visualization and further processing .
+6. **Security alert system**
+   - Introduction of IOT systems i.e security alert system in case of any intrusion from suspicious people.
 . **Set Up IoT Sensors**
 
-   Ensure your IoT devices are configured to send data to the MQTT broker specified in the `.env` file.
-
-## Usage
+  Each IOT system will be installed in each house hold.
+## Usage of the system
 
 1. **User Login/Registration**
-   - Navigate to `http://localhost:3000` to access the login and registration page.
    - Register a new account or log in with existing credentials.
 
 2. **Submit Service Request**
@@ -50,38 +51,12 @@ The Smart City website is designed to enhance urban living by providing an effic
 
 3. **Admin Processing**
    - Admins can log in to the admin dashboard to view and manage service requests.
-   - Allocate requests to relevant departments for processing.
+   - Allocate requests to relevant departments for processing.Concerned departments process the data and  action is taken
 
-4. **Monitor Water Pollution**
-   - Access the water pollution monitoring dashboard to view real-time data from IoT sensors.
+4. **Monitor various resources**
+   - Accessing the data collectted by various IOT systems and displaying it on the dashboard to view real-time data from IoT sensors.
    - Data is visualized to show pollution levels and trends.
-
-## Directory Structure
-
-```
-smart-city-website/
-├── client/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── ... (React app files)
-├── models/
-│   ├── Issue.js
-│   ├── Request.js
-│   └── User.js
-├── routes/
-│   ├── auth.js
-│   ├── issues.js
-│   ├── requests.js
-│   └── ... (additional routes)
-├── services/
-│   ├── mqttService.js
-│   └── ... (additional services)
-├── .env
-├── server.js
-├── package.json
-└── README.md
-```
+   -  Also from this panel the admin can take action to resolve any issue which has not been monitored
 
 ## Contributing
 
@@ -97,4 +72,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-By following this README, you can set up, run, and contribute to the Smart City website project. If you need further customization or additional features, feel free to update the documentation accordingly.
+This is the project 
